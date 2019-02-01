@@ -273,6 +273,14 @@ h5 {
 }
 
 /* Reduce shakes when clicked */
-html{
+html {
     overflow-y: scroll;
+}
+
+/* Table Elements */
+tr {
+    text-align: center;
+}
+td{
+    padding: 4%;
 }
