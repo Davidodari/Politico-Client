@@ -285,15 +285,46 @@ html {
 
 
 /* Table Elements */
+th {
 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ffca28;
+    color: black;
+}
+
+section table {
+    overflow-x: auto;
+}
+
+section h1 {
+    text-align: center;
+    margin: 2% auto;
+}
 
 tr {
     text-align: center;
+}
 
+table.politicians {
+    margin: 2% auto;
+    border: 2px solid #3949ab;
+    width: 80%;
+    min-width: 300px;
+    padding: 2%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
 }
 
 td {
-    padding: 4%;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -312,4 +343,4 @@ td {
     color: #3949ab;
 }
 
-@media screen and (max-width: 600px) {}
+
