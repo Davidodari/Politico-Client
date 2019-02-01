@@ -17,36 +17,23 @@
         <!-- Navigation Links -->
         <nav>
             <ul>
-                <li><a href="index.html" id="current-link">Log In</a></li>
-                <li>
-                    <div class="dropdown">
-                        <a href="#" class="drop-option-users">Sign Up</a>
-                        <div class="dropdown-content">
-                            <a href="./auth/admin_sign_up.html">Admin</a>
-                            <a href="./auth/politician_sign_up.html">Politician</a>
-                            <a href="./auth/user_sign_up.html">User</a>
-                        </div>
-                    </div>
-                </li>
+                <li><a href="index.html">Back</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
-<!-- Login Form Section -->
+<!-- Reset Password Form Section -->
 <section>
     <div class="card-position-center card container">
-        <h1>Sign In</h1><br/>
+        <h1>Reset Password</h1><br />
         <form target="_self" id="login-form">
             <label for="email-address">Email</label><br /><br />
             <input type="email" name="email" id="email-address" placeholder="Enter email address" />
             <br /><br />
-            <label for="password">Password</label><br /><br />
-            <input type="password" name="password" id="password" placeholder="Enter password" /><br /><br />
         </form>
-        <a href="reset_pass.html">Forgot Password?</a><br /><br />
         <!-- for form="login-form" type="submit" -->
-        <button class="button" onclick="redirectToUserDashboardLogin()" value="Login">Login</button>
+        <button class="button" onclick="resetPassword()" value="Reset">Request Reset</button>
     </div>
 </section>
 <!-- JavaScript Files -->
