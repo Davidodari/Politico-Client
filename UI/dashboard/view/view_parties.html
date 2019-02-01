@@ -7,7 +7,7 @@
 <!-- Google Fonts : Roboto -->
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <!-- External CSS -->
-<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css" />
 
 
 <!-- Navigation Bar -->
@@ -17,12 +17,12 @@
         <!-- Navigation Links -->
         <nav>
             <ul>
-                <li><a href="" id="current-link">Profile</a></li>
+                <li><a href="../dash_user.html">Profile</a></li>
                 <li>
                     <div class="dropdown">
-                        <a href="#" class="drop-option-users">View</a>
+                        <a href="#" class="drop-option-users" id="current-link">View</a>
                         <div class="dropdown-content">
-                            <a href="./view/view_parties.html">Political Parties</a>
+                            <a href="./view/view_parties.html" id="current-link">Political Parties</a>
                             <a href="#">Politicians</a>
                         </div>
                     </div>
@@ -34,42 +34,30 @@
     </div>
 </header>
 
-<!-- User Detail Form Section -->
-<section>
-    <div class="card-position-top card-user-profile container row">
-        <div class="profile-pic column">
-            <img src="../images/user-profile.jpg" alt="user-profile" class="responsive" />
-        </div>
-        <div class="user-info column">
-            <h4>Username:</h4><br>
-            <p>David Odari</p><br>
-            <h4>Email:</h4><br>
-            <p>davidkibzodari@gmail.com</p>
-        </div>
-    </div>
-</section>
 
-<!-- List of Political Offices User has voted for -->
+<!-- List of Political Paties -->
 <!-- User Detail Form Section -->
 <section>
-    <div class="card-position-relative card-user-profile container row">
-        <table class="column">
+
+    <div class="card-position-top card-user-profile container row">
+        <h1 id="registered-title">Registered Political Party</h1>
+        <table class="right-fl" >
             <tr>
-                <th>Political Office</th>
+                <th>Political Party</th>
             </tr>
             <tr>
-                <td>President</td>
+                <td>KULA</td>
             </tr>
             <tr>
-                <td>Governor</td>
+                <td>MANA</td>
             </tr>
             <tr>
-                <td>Senator</td>
+                <td>WPT</td>
             </tr>
         </table>
-        <table class="column">
+        <table class="left-fl">
             <tr>
-                <th>Candidate Voted For</th>
+                <th>Chairperson</th>
             </tr>
             <tr>
                 <td>John Doe</td>
