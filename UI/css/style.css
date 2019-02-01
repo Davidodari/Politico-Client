@@ -136,7 +136,7 @@ nav a:hover {
 .card-position-center {
     margin: auto;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -178,15 +178,22 @@ nav a:hover {
 /* Form elements */
 
 input[type=email] {
-    padding: 5px;
-    border: 2px solid #ccc;
+    padding: 6px;
+    border: 2px solid #ffca28;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
 
 input[type=password] {
-    padding: 5px;
-    border: 2px solid #ccc;
+    padding: 6px;
+    border: 2px solid #ffca28;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    padding: 6px;
+    border: 2px solid #ffca28;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
@@ -242,4 +249,30 @@ form {
     content: "";
     clear: both;
     display: table;
+}
+
+/* Header Font */
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Reduce shakes when clicked */
+html{
+    overflow-y: scroll;
 }
