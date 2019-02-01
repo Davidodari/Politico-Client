@@ -236,6 +236,11 @@ form {
     max-width: 250px;
     height: auto;
 }
+.responsive-small {
+    width: 50%;
+    max-width: 250px;
+    height: auto;
+}
 
 .column {
     float: left;
@@ -277,10 +282,31 @@ html {
     overflow-y: scroll;
 }
 
+
 /* Table Elements */
+
+
 tr {
     text-align: center;
+
 }
-td{
+
+td {
     padding: 4%;
+
+}
+
+.right-fl {
+    float: right;
+}
+
+.left-fl {
+    float: left;
+}
+
+/* Registered Party List Title */
+#registered-title {
+    text-align: center;
+    margin: 20px;
+    color: #3949ab;
 }
