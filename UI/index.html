@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<!-- Page Title -->
+<title> Login | Welcome</title>
+<!-- Responsiveness -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google Fonts : Roboto -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!-- External CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+<!-- Navigation Bar -->
+<header>
+    <div class="nav-bar">
+        <p id="site-name"> POLITICO </p>
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="index.html" id="current-link">Log In</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="drop-option-users">Sign Up</a>
+                        <div class="dropdown-content">
+                            <a href="#">Admin</a>
+                            <a href="#">Politician</a>
+                            <a href="#">User</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Login Form Section -->
+<section>
+    <div class="card-position-center card container">
+        <form target="_self" id="login-form">
+            <label for="email-address">Email</label><br /><br />
+            <input type="email" name="email" id="email-address" placeholder="Enter email address" />
+            <br /><br />
+            <label for="password">Password</label><br /><br />
+            <input type="password" name="password" id="password" placeholder="Enter password" /><br /><br />
+        </form>
+        <a href="#">Forgot Password?</a><br /><br />
+        <!-- for form="login-form" type="submit" -->
+        <button class="button" onclick="redirectToDashboard()" value="Login">Login</button>
+
+    </div>
+</section>
+<!-- JavaScript Files -->
+<script src="scripts/login.js"></script>
