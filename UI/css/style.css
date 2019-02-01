@@ -236,6 +236,7 @@ form {
     max-width: 250px;
     height: auto;
 }
+
 .responsive-small {
     width: 50%;
     max-width: 250px;
@@ -310,3 +311,5 @@ td {
     margin: 20px;
     color: #3949ab;
 }
+
+@media screen and (max-width: 600px) {}

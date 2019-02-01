@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!-- Page Title -->
+<title> Dashboard </title>
+<!-- Responsiveness -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google Fonts : Roboto -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!-- External CSS -->
+<link rel="stylesheet" type="text/css" href="../../css/style.css" />
+
+
+<!-- Navigation Bar -->
+<header>
+    <div class="nav-bar">
+        <p id="site-name"> POLITICO </p>
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li>
+                    <div class="dropdown">
+                        <a id="current-link" href="#" class="drop-option-users">Create</a>
+                        <div class="dropdown-content">
+                            <a href="create_party.html">Political Parties</a>
+                            <a href="#" id="current-link">Government Offices</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="drop-option-users">View</a>
+                        <div class="dropdown-content">
+                            <a href="../dash_admin.html">Political Parties</a>
+                            <a href="../view/view_offices.html">Government Offices</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="../index.html">Log Out</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Create Office  -->
+<section class="createSection">
+    <div>
+        <form>
+            <input class="inputFields" type="text" id="party_name" name="party_name" placeholder="Enter Party Name" /><br />
+            <input class="inputFields" type="text" id="party_chairman" name="party_chairman" placeholder="Enter Party Chairman" /><br />
+            <input class="inputFields" type="text" name="party_doc" placeholder="Day Created" /><br />
+            <input class="inputFields" type="number" name="party_doc" placeholder="Number of Members" /><br />
+        </form>
+        <button class="button" onclick="">Create Office</button>
+    </div>
+</section>
