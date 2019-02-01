@@ -20,6 +20,6 @@
 
   function resetPassword() {
     if (window.confirm("Confirm Password Reset")) {
-      redirectToUserDashboardLogin()
+      redirectToUserDashboardLogin();
     }
   }
