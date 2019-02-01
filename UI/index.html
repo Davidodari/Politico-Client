@@ -9,6 +9,7 @@
 <!-- External CSS -->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+
 <!-- Navigation Bar -->
 <header>
     <div class="nav-bar">
@@ -34,7 +35,7 @@
 
 <!-- Login Form Section -->
 <section>
-    <div class="form-position card container">
+    <div class="card-position-center card container">
         <form target="_self" id="login-form">
             <label for="email-address">Email</label><br /><br />
             <input type="email" name="email" id="email-address" placeholder="Enter email address" />
@@ -43,11 +44,10 @@
             <input type="password" name="password" id="password" placeholder="Enter password" /><br /><br />
         </form>
         <a href="#">Forgot Password?</a><br /><br />
-        <button class="button" type="submit" form="login-form" value="Login">Login</button>
+        <!-- for form="login-form" type="submit" -->
+        <button class="button" onclick="redirectToDashboard()" value="Login">Login</button>
 
     </div>
 </section>
-<!-- Footer Section -->
-<footer>
-
-</footer>
+<!-- JavaScript Files -->
+<script src="scripts/login.js"></script>
