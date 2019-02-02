@@ -41,13 +41,14 @@
     </div>
 </header>
 <!-- Political Parties -->
-<section class="createSection">
+<section class="card card-position-center">
     <div>
-        <form>
-            <input class="inputFields" type="text" id="party_name" name="party_name" placeholder="Enter Party Name" /><br />
-            <input class="inputFields" type="text" id="party_chairman" name="party_chairman" placeholder="Enter Party Chairman" /><br />
-            <input class="inputFields" type="text" name="party_doc" placeholder="Day Created" /><br />
-            <input class="inputFields" type="number" name="party_doc" placeholder="Number of Members" /><br />
+        <h1>Create Political Party</h1><br>
+        <form id="login-form">
+            <input  type="text" id="party_name" name="party_name" placeholder="Enter Party Name" /><br /><br />
+            <input  type="text" id="party_chairman" name="party_chairman" placeholder="Enter Party Chairman" /><br /><br />
+            <input  type="text" name="party_doc" placeholder="Day Created" /><br /><br />
+            <input  type="number" name="party_doc" placeholder="Number of Members" /><br /><br />
         </form>
         <button class="button" onclick="createNewParty()">Create Party</button>
     </div>
