@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<!-- Page Title -->
+<title> Dashboard </title>
+<!-- Responsiveness -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google Fonts : Roboto -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!-- External CSS -->
+<link rel="stylesheet" type="text/css" href="../../css/style.css" />
+
+
+<!-- Navigation Bar -->
+<!-- Navigation Bar -->
+<header>
+    <div class="nav-bar">
+        <p id="site-name"> POLITICO </p>
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="../dash_user.html">Profile</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="drop-option-users">View</a>
+                        <div class="dropdown-content">
+                            <a href="../view/view_parties.html">Political Parties</a>
+                            <a href="../view/view_politicians.html">Politicians</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="# " id="current-link">Vote</a></li>
+                <li><a href="../../index.html">Log Out</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Cast Vote -->
+<section class="card card-position-center">
+    <div>
+        <h1>Cast Vote</h1><br>
+        <form id="login-form">
+            <label for="president">President</label><br />
+            <select>
+                <option value="volvo">Mr.Salwe</option>
+                <option value="saab">Mr.Luke</option>
+            </select>
+            <br /><br />
+            <label for="go">Governor</label><br />
+            <select>
+                <option value="volvo">Mr.Kim</option>
+                <option value="saab">Mrs.Sam</option>
+                <option value="volvo">Mr.Kim</option>
+            </select>
+            <br /><br />
+            <label for="president">Senator</label><br />
+            <select>
+                <option value="saab">Mrs.Sam</option>
+                <option value="volvo">Mr.Kim</option>
+            </select>
+            <br /><br />
+
+        </form>
+        <button class="button" id="voteBtn" onclick="vote()">Vote</button>
+    </div>
+</section>
+
+<script src="../../scripts/vote.js"></script>

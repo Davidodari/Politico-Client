@@ -175,7 +175,6 @@ nav a:hover {
     align-items: center;
 }
 
-
 label {
     font-family: 'Roboto', sans-serif;
 }
@@ -264,14 +263,13 @@ html {
 }
 
 /* Table Elements */
-th {
 
+th {
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: #ffca28;
     color: black;
 }
-
 
 section table {
     overflow-x: auto;
@@ -323,8 +321,8 @@ td {
     color: #3949ab;
 }
 
-
 /* Form Input */
+
 /* Form elements */
 
 input {
@@ -344,3 +342,29 @@ input[type=number] {
     border-radius: 5px;
     color: #3949ab;
 }
+
+/* Vote Dropdowns */
+
+select {
+    margin: 10px auto;
+    width: 100%;
+    padding: 2%;
+    border: none;
+}
+
+option {
+    padding: 2%;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+button:not(.no-hover):hover { /* only apply hover styling when the div does not have the class 'no-hover' */
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #3949ab;
+  }
