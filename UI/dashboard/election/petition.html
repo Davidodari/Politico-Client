@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!-- Page Title -->
+<title> Dashboard </title>
+<!-- Responsiveness -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google Fonts : Roboto -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!-- External CSS -->
+<link rel="stylesheet" type="text/css" href="../../css/style.css" />
+
+
+<!-- Navigation Bar -->
+<header>
+    <div class="nav-bar">
+        <p id="site-name"> POLITICO </p>
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="../../dashboard/dash_politician.html">Profile</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="drop-option-users">View</a>
+                        <div class="dropdown-content">
+                            <a href="../view/view_parties.html">Political Parties</a>
+                            <a href="../view/view_politicians.html">Politicians</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="drop-option-users" id="current-link">Elections</a>
+                        <div class="dropdown-content">
+                            <a href="../vote/vote.html">Vote</a>
+                            <a href="#">Contend</a>
+                            <a href="election/petition.html" id="current-link">File Petition</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="../index.html">Log Out</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Login Form Section -->
+<section>
+    <div class="card-position-center card">
+        <h1>File Petition</h1><br />
+        <form target="_self" id="login-form">
+            <label for="gov_off_petition">Petition For:</label><br /><br />
+            <input type="text" name="gov_off_petition" id="gov_off_petition" placeholder="Enter Government Office" /><br /><br />
+            <label for="region">Locale:</label><br /><br />
+            <input type="password" name="region" id="region" placeholder="Enter Region" /><br /><br />
+        </form>
+        <button class="button" onclick="filePetition()" value="File Petition">File Petition</button>
+    </div>
+</section>
+
+<!-- Scripts -->
+<script src="../../scripts/elections.js"></script>
