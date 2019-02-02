@@ -198,11 +198,25 @@ form {
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.button-delete {
+    background-color: #ffca28;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
 
 .button:hover {
     background-color: #ffca28;
     color: #3949ab;
 }
+
 
 /* User Profile */
 
@@ -363,8 +377,22 @@ button[disabled] {
     color: #666666;
 }
 
-button:not(.no-hover):hover { /* only apply hover styling when the div does not have the class 'no-hover' */
+button:not(.no-hover):hover { 
     border: 1px solid #999999;
     background-color: #cccccc;
     color: #3949ab;
+}
+button.button-delete:not(.no-hover):hover {
+    border: 1px solid #999999;
+    background-color: #c71717;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
