@@ -175,28 +175,6 @@ nav a:hover {
     align-items: center;
 }
 
-/* Form elements */
-
-input[type=email] {
-    padding: 6px;
-    border: 2px solid #ffca28;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
-
-input[type=password] {
-    padding: 6px;
-    border: 2px solid #ffca28;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
-
-input[type=text] {
-    padding: 6px;
-    border: 2px solid #ffca28;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
 
 label {
     font-family: 'Roboto', sans-serif;
@@ -258,6 +236,7 @@ form {
 }
 
 /* Header Font */
+
 h1 {
     font-family: 'Roboto', sans-serif;
 }
@@ -279,10 +258,10 @@ h5 {
 }
 
 /* Reduce shakes when clicked */
+
 html {
     overflow-y: scroll;
 }
-
 
 /* Table Elements */
 th {
@@ -292,6 +271,7 @@ th {
     background-color: #ffca28;
     color: black;
 }
+
 
 section table {
     overflow-x: auto;
@@ -325,7 +305,6 @@ tr:hover {
 td {
     padding: 2%;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .right-fl {
@@ -337,6 +316,7 @@ td {
 }
 
 /* Registered Party List Title */
+
 #registered-title {
     text-align: center;
     margin: 20px;
@@ -344,3 +324,23 @@ td {
 }
 
 
+/* Form Input */
+/* Form elements */
+
+input {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding: 6px;
+    border: 2px solid #ffca28;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=number] {
+    padding: 6px;
+    border: 2px solid #ffca28;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #3949ab;
+}
