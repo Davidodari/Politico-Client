@@ -329,7 +329,10 @@ td {
 .left-fl {
     float: left;
 }
-
+.max-width-table{
+    margin:2%;
+    width: 100%;
+}
 /* Registered Party List Title */
 
 #registered-title {
