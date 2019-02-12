@@ -32,6 +32,8 @@ header::after {
     font-size: 120%;
     float: left;
     padding: 1%;
+    text-decoration: none;
+    color: #ffca28;
 }
 
 /* Navigation links position */
@@ -198,6 +200,7 @@ form {
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
 .button-delete {
     background-color: #ffca28;
     border: none;
@@ -377,11 +380,12 @@ button[disabled] {
     color: #666666;
 }
 
-button:not(.no-hover):hover { 
+button:not(.no-hover):hover {
     border: 1px solid #999999;
     background-color: #cccccc;
     color: #3949ab;
 }
+
 button.button-delete:not(.no-hover):hover {
     border: 1px solid #999999;
     background-color: #c71717;
