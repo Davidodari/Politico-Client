@@ -143,6 +143,14 @@ nav a:hover {
     transform: translate(-50%, -50%);
 }
 
+.card-position-center-sign-in {
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .card-position-top {
     margin: auto;
     position: absolute;
@@ -165,6 +173,14 @@ nav a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding: 6%;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.card-sign-in {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 8%;
     border-radius: 5px;
     align-items: center;
 }
@@ -329,10 +345,12 @@ td {
 .left-fl {
     float: left;
 }
-.max-width-table{
-    margin:2%;
+
+.max-width-table {
+    margin: 2%;
     width: 100%;
 }
+
 /* Registered Party List Title */
 
 #registered-title {
