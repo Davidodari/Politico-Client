@@ -1,0 +1,25 @@
+{
+  "name": "POLITICO",
+  "version": "1.0.0",
+  "description": "[![LICENSE](https://img.shields.io/badge/license-MIT-yellowgreen.svg)]()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidodari/Politico-Client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davidodari/Politico-Client/issues"
+  },
+  "homepage": "https://github.com/Davidodari/Politico-Client#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
