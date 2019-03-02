@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!-- Page Title -->
-<title> Admin Sign Up </title>
+<title> User Sign Up</title>
 <!-- Responsiveness -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Fonts : Roboto -->
@@ -22,8 +22,7 @@
                     <div class="dropdown">
                         <a href="#" id="current-link" class="drop-option-users">Sign Up</a>
                         <div class="dropdown-content">
-                            <a href="#" id="current-link">Admin</a>
-                            <a href="user_sign_up.html">User</a>
+                            <a href="#" id="current-link">User</a>
                         </div>
                     </div>
                 </li>
@@ -35,40 +34,36 @@
 <!-- Login Form Section -->
 <section>
     <div class="card-position-center card">
-        <h1>Admin Sign Up</h1><br />
-        <form target="_self" id="signup-form">
+        <h1>User Sign Up</h1><br />
+        <form target="_self" id="signup-form" method="POST" autocomplete="on">
             <label for="first-name">First Name</label>
             <br /><br />
-            <input type="text" name="firstname" id="first-name" placeholder="Enter First Name" required />
+            <input type="text" name="firstname" id="first-name" placeholder="Enter First Name" maxlength="100" required />
             <br /><br />
-            <label for="second-name">Second Name</label><br /><br />
-            <input type="text" name="secondname" id="second-name" placeholder="Enter Second Name" required />
+            <label for="last-name">Last Name</label><br /><br />
+            <input type="text" name="lastname" id="last-name" placeholder="Enter Last Name" maxlength="100"
+                required />
             <br /><br />
             <label for="other-name">Other Name</label><br /><br />
-            <input type="text" name="othername" id="other-name" placeholder="Enter Other Name" required />
+            <input type="text" name="othername" id="other-name" placeholder="Enter Other Name" maxlength="100" required />
             <br /><br />
             <label for="phone-number">Phone Number</label><br /><br />
-            <input type="tel" name="phonenumber" id="phone-number" placeholder="Enter Phone Number" required />
+            <input type="tel" name="phonenumber" id="phone-number" placeholder="Enter Phone Number" maxlength="20"
+                required />
             <br /><br />
             <label for="passport-url">Passport Url</label><br /><br />
             <input type="text" name="passporturl" id="passport-url" placeholder="Enter Passport Url" required />
             <br /><br />
-            <label for="email-address">Email</label>
-            <br /><br />
+            <label for="email-address">Email</label><br /><br />
             <input type="email" name="email" id="email-address" placeholder="Enter email address" required />
             <br /><br />
             <label for="password">Password</label><br /><br />
-            <input type="password" name="password" id="password" placeholder="Enter password" required />
-            <br /><br />
-            <label for="auth">Auth Code</label>
-            <br /><br />
-            <input type="text" name="auth" id="auth" placeholder="Enter Auth Code" required /><br /><br />
-
+            <input type="password" name="password" id="password" placeholder="Enter password" required autocomplete="off" /><br /><br />
         </form>
         <br /><br />
-        <button type="submit" form="signup-form" class="button" onclick="signUpAdmin()" value="Sign Up">Sign Up
+        <button type="submit" form="signup-form" class="button" onclick="signUp()" value="Sign Up">Sign Up
         </button>
     </div>
 </section>
 <!-- JavaScript Files -->
-<script src="../script/"></script>
+<script src="../script/signup.js"></script>
